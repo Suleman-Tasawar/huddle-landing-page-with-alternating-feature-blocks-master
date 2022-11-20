@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+/*Layout*/
+
+header {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.sec__1 {
+  background: url("images/bg-hero-desktop.svg");
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.sec__1,
+.sec__2,
+.sec__3,
+.sec__4,
+.sec__5 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sec__1__a,
+.sec__1__b,
+.sec__2__a,
+.sec__2__b,
+.sec__3__a,
+.sec__3__b,
+.sec__4__a,
+.sec__4__b {
+  line-height: 1.7;
+  width: 350px;
+  height: 350px;
+}
+
+.cont {
+  width: 300px;
+}
+
+.phone__no,
+.email__add,
+.location {
+  padding-top: 1rem;
+  display: inline-flex;
+}
+
+.phone__no img,
+.email__add img,
+.location img {
+  color: white;
+  max-width: 15px;
+  height: 15px;
+}
+
+/*Images*/
+.logo img,
+.cont img {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.sec__1__b img,
+.sec__2__b img,
+.sec__3__a img,
+.sec__4__a img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.cont img {
+  color: white;
+}
+
+/*Typography*/
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.sec__1 {
+  padding-top: 7rem;
+}
+
+.sec__1__a h1 {
+  font-size: 1.5rem;
+}
+
+button {
+  padding-left: 3rem;
+  padding: 6px 35px;
+  border: 1px solid white;
+  border-radius: 1rem;
+}
+
+.contact-btn button {
+  background: rgb(250, 244, 244);
+}
+
+.sec__1__a button,
+.raises__box button {
+  background: hsl(322, 100%, 66%);
+  color: white;
+}
+
+.raises__box {
+  background-color: white;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.8;
+  height: 280px;
+  background-color: hsl(192, 100%, 9%);
+  color: hsl(208, 11%, 55%);
+}
+
+.footer__main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer__copy {
+  padding-left: 30%;
+}
+
+.fa {
+  padding: 7px;
+  border: 1px solid gray;
+  border-radius: 50px;
+}
+
+/*Hover*/
+.contact-btn button:hover {
+  color: grey;
+}
+
+.fa:hover {
+  border: 1px solid hsl(322, 100%, 66%);
+}
