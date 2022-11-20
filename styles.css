@@ -19,8 +19,6 @@ header {
 
 .sec__1 {
   background: url("images/bg-hero-desktop.svg");
-  background-size: cover;
-  box-sizing: border-box;
 }
 
 .sec__1,
@@ -98,6 +96,16 @@ body {
   font-size: 1.5rem;
 }
 
+.sec__2,
+.sec__3,
+.sec__4 {
+  width: 800px;
+  margin-left: 10%;
+  border: 1px solid rgb(238, 233, 233);
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 button {
   padding-left: 3rem;
   padding: 6px 35px;
@@ -123,7 +131,7 @@ footer {
   display: flex;
   flex-direction: column;
   line-height: 1.8;
-  height: 280px;
+  height: 350px;
   background-color: hsl(192, 100%, 9%);
   color: hsl(208, 11%, 55%);
 }
@@ -151,4 +159,31 @@ footer {
 
 .fa:hover {
   border: 1px solid hsl(322, 100%, 66%);
+}
+
+/*Media Querry*/
+@media screen and (min-width: 360px) and (max-width: 760px) {
+  .sec__1 {
+    background: url("images/bg-hero-mobile.svg");
+  }
+  .sec__1,
+  .sec__2,
+  .sec__4,
+  .sec__5 {
+    flex-direction: column-reverse;
+  }
+
+  .sec__2,
+  .sec__3,
+  .sec__4 {
+    width: auto;
+    padding: 1rem;
+    text-align: center;
+    padding-right: 1rem;
+  }
+
+  .sec__3,
+  .footer__main {
+    flex-direction: column;
+  }
 }
