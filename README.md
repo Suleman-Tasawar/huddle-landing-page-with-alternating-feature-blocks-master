@@ -14,7 +14,6 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
   - [Continued development](#continued-development)
 - [Author](#author)
 
-
 ## Overview
 
 ### The challenge
@@ -31,8 +30,8 @@ This is the screenshot of but i have build
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Suleman-Tasawar/huddle-landing-page-with-alternating-feature-blocks-master)
-- Live Site URL: [Add live site URL here](https://github.com/Suleman-Tasawar/huddle-landing-page-with-alternating-feature-blocks-master/)
+- Solution URL: [https://github.com/Suleman-Tasawar/huddle-landing-page-with-alternating-feature-blocks-master](Source Code)
+- Live Site URL: [https://github.com/Suleman-Tasawar/huddle-landing-page-with-alternating-feature-blocks-master/](Live Site)
 
 ## My process
 
@@ -59,14 +58,13 @@ I learned alot from building this project.First i learned the corrent use of pos
   background-color: hsl(0, 0%, 97%);
   text-align: center;
 }
-
+```
 
 ### Continued development
 
-Note that this is'nt the final look of my project.I am still learning new things to improve this page.
+Note that this is'nt the final look of my project.I am still learning new things to improve this page.You can see the changes to this website my visiting it frequently
 
 ## Author
 
 - Website - [Suleman-Tasawar](https://suleman-tasawar-portfolio.on.drv.tw/pages/)
 - Frontend Mentor - [Suleman-Tasawar](https://www.frontendmentor.io/profile/Suleman-Tasawar)
-```
