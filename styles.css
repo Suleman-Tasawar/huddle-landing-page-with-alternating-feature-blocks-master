@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   font-size: 16px;
+  list-style-type: none;
 }
 
 /*Layout*/
@@ -82,6 +83,7 @@ header {
 .cont img {
   color: white;
 }
+/*@Images*/
 
 /*Typography*/
 
@@ -105,8 +107,6 @@ body {
   margin-left: 15%;
   border: 1px solid rgb(238, 233, 233);
   margin-bottom: 2rem;
-  box-shadow: 0 2px 2px 0 rgba(133, 130, 130, 0.2),
-    0 4px 2px 0 rgba(78, 78, 78, 0.19);
 }
 
 button {
@@ -117,12 +117,13 @@ button {
 }
 
 .contact-btn button {
-  background: rgb(250, 244, 244);
+  background: hsl(193, 100%, 96%);
 }
 
 .sec__1__a button,
 .raises__box button {
   background: hsl(322, 100%, 66%);
+
   color: white;
 }
 
@@ -133,8 +134,12 @@ button {
   transform: translate(-50%, -50%);
   width: 300px;
   height: 100px;
-  background-color: hsl(193, 100%, 96%);
+  background-color: hsl(0, 0%, 97%);
   text-align: center;
+}
+
+.raises__box h1 {
+  color: black;
 }
 
 footer {
@@ -144,11 +149,12 @@ footer {
   flex-direction: column;
   line-height: 1.8;
   height: 320px;
-  background-color: hsl(192, 100%, 9%);
+  background: hsl(192, 100%, 9%);
   color: hsl(208, 11%, 55%);
 }
 
 .footer__main {
+  padding-top: 2rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -160,23 +166,29 @@ footer {
 
 .fa {
   padding: 7px;
-  border: 1px solid gray;
+  border: 1px solid grey;
   border-radius: 50px;
 }
+
+/*@Typography*/
 
 /*Hover*/
 .contact-btn button:hover {
   color: grey;
 }
 
-.raises__box button:hover {
-  background-color: lightpink;
+.raises__box button:hover,
+.sec__1__a button:hover {
+  background-color: rgb(187, 104, 116);
 }
 
 .fa:hover {
   border: 1px solid hsl(322, 100%, 66%);
   color: hsl(322, 100%, 66%);
+  color: rgb(221, 219, 219);
 }
+
+/*@Hover*/
 
 /*Media Querry*/
 @media screen and (min-width: 360px) and (max-width: 760px) {
@@ -189,18 +201,45 @@ footer {
   .sec__5 {
     flex-direction: column-reverse;
   }
+  /*To change to layout of the section w.r.t small screens*/
+  .sec__1__a,
+  .sec__1__b,
+  .sec__2__a,
+  .sec__2__b,
+  .sec__3__a,
+  .sec__3__b,
+  .sec__4__a,
+  .sec__4__b {
+    line-height: 1.9;
+    width: 320px;
+    height: 320px;
+  }
 
   .sec__2,
   .sec__3,
   .sec__4 {
-    width: auto;
-    padding: 1rem;
+    width: 350px;
+    height: 470px;
     text-align: center;
-    padding-right: 1rem;
+    margin: 1rem;
+  }
+
+  footer {
+    padding: 1rem;
+    height: 500px;
   }
 
   .sec__3,
   .footer__main {
     flex-direction: column;
+    justify-content: left;
+  }
+
+  .footer__main {
+    padding-top: 5rem;
+    padding-right: 10rem;
+  }
+  .footer__copy {
+    padding-left: 0;
   }
 }
