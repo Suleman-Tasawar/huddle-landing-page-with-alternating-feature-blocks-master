@@ -30,8 +30,8 @@ This is the screenshot of but i have build
 
 ### Links
 
-- Solution URL: [https://github.com/Suleman-Tasawar/huddle-landing-page-with-alternating-feature-blocks-master](Source-Code)
-- Live Site URL: [https://github.com/Suleman-Tasawar/huddle-landing-page-with-alternating-feature-blocks-master/](Live-Site)
+- Solution URL: (https://github.com/Suleman-Tasawar/huddle-landing-page-with-alternating-feature-blocks-master)[Source-Code]
+- Live Site URL: (https://github.com/Suleman-Tasawar/huddle-landing-page-with-alternating-feature-blocks-master/)[Live-Site]
 
 ## My process
 
