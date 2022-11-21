@@ -58,6 +58,7 @@ header {
 .phone__no img,
 .email__add img,
 .location img {
+  margin-top: 0.5rem;
   color: white;
   max-width: 15px;
   height: 15px;
@@ -100,10 +101,12 @@ body {
 .sec__3,
 .sec__4 {
   width: 800px;
-  margin-left: 10%;
+  height: 370px;
+  margin-left: 15%;
   border: 1px solid rgb(238, 233, 233);
-  margin-bottom: 1.5rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 2px 0 rgba(133, 130, 130, 0.2),
+    0 4px 2px 0 rgba(78, 78, 78, 0.19);
 }
 
 button {
@@ -124,14 +127,23 @@ button {
 }
 
 .raises__box {
-  background-color: white;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 100px;
+  background-color: hsl(193, 100%, 96%);
+  text-align: center;
 }
 
 footer {
+  margin-top: 4rem;
+  position: relative;
   display: flex;
   flex-direction: column;
   line-height: 1.8;
-  height: 350px;
+  height: 320px;
   background-color: hsl(192, 100%, 9%);
   color: hsl(208, 11%, 55%);
 }
@@ -157,8 +169,13 @@ footer {
   color: grey;
 }
 
+.raises__box button:hover {
+  background-color: lightpink;
+}
+
 .fa:hover {
   border: 1px solid hsl(322, 100%, 66%);
+  color: hsl(322, 100%, 66%);
 }
 
 /*Media Querry*/
