@@ -23,15 +23,10 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
-
-![](.images/screenshot.jpg)
-This is the screenshot of but i have build
-
 ### Links
 
-- Solution URL: (https://github.com/Suleman-Tasawar/huddle-landing-page-with-alternating-feature-blocks-master)[Source-Code]
-- Live Site URL: (https://github.com/Suleman-Tasawar/huddle-landing-page-with-alternating-feature-blocks-master/)[Live-Site]
+- Solution URL: [Source-Code](https://github.com/Suleman-Tasawar/huddle-landing-page-with-alternating-feature-blocks-master)
+- Live Site URL: [Live-Site](https://github.com/Suleman-Tasawar/huddle-landing-page-with-alternating-feature-blocks-master/)
 
 ## My process
 
