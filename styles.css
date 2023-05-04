@@ -236,10 +236,13 @@ footer {
   }
 
   .footer__main {
+    position:absolute;
+    top:8%;
+    left:15%;
     padding-top: 5rem;
     padding-right: 10rem;
   }
   .footer__copy {
-    padding-left: 0;
+    padding-left: 3%;
   }
 }
