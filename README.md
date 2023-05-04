@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Source-Code](https://github.com/Suleman-Tasawar/huddle-landing-page-with-alternating-feature-blocks-master)
-- Live Site URL: [Live-Site](https://github.com/Suleman-Tasawar/huddle-landing-page-with-alternating-feature-blocks-master/)
+- Live Site URL: [Live-Site](https://suleman-tasawar.github.io/huddle-landing-page-with-alternating-feature-blocks-master/)
 
 ## My process
 
